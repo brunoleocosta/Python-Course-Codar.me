@@ -1,0 +1,5 @@
+print('Calculadora de custos do aluguel do carro ')
+km = float(input ('Digite a quantidade de km percorridos '))
+d = int(input('Digite a quantidade de dias do aluguel do carro '))
+vt = (60*d)+(km*0.15)
+print(f'O valor total a ser pago pelo aluguel do carro é de: R$ {vt:.2f}')
