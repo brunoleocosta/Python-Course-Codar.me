@@ -1,8 +1,7 @@
 numero = int(input("Digite um número inteiro: "))
 
-# Verifica se o número é par ou ímpar e imprime o resultado
+# Verifica se o número é par ou ímpar e imprime o resultado com uma mensagem
 if numero % 2 == 0:
-    print(True)  # Número é par
+    print(True, "- O número é par.")
 else:
-    print(False)  # Número é ímpar5
-    
+    print(False, "- O número é ímpar.")
